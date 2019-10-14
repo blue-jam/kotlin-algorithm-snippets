@@ -5,6 +5,8 @@ import bluejam.testutils.Verifier
 import java.util.*
 
 class AojNtl1C: Verifier<Long>("aoj/NTL_1_C") {
+    override fun readAnswerFile(sc: Scanner): Long = sc.nextLong()
+
     override fun solve(sc: Scanner): Long {
         val N = sc.nextInt()
         val a = Array(N) { sc.nextLong() }

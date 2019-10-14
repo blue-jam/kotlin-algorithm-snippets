@@ -13,6 +13,7 @@ abstract class Verifier<T>(
     private val timeLimit: Long = 1
 ) {
     abstract fun solve(sc: Scanner): T
+    abstract fun readAnswerFile(sc: Scanner): T
 
     @TestFactory
     fun run(): List<DynamicTest> {
@@ -24,7 +25,7 @@ abstract class Verifier<T>(
                     val (inSc, diffSc) = createScannerForCase(it)
                     val res = assertTimeout<T>(Duration.ofSeconds(timeLimit)) { solve(inSc) }
 
-                    assertEquals(diffSc.nextLong(), res)
+                    assertEquals(readAnswerFile(diffSc), res)
                 }
             }
     }
