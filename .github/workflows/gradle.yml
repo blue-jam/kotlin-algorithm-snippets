@@ -23,12 +23,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install online-judge-tools
 
-    - name: Build
-      run: ./gradlew build dokka
     - name: Download test cases
       run: ./gradlew downloadTestCase
-    - name: Run test
-      run: ./gradlew test
+    - name: Build and Test
+      run: ./gradlew build dokka
     - name: Deploy document
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
