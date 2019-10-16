@@ -2,6 +2,7 @@ package bluejam.math.modint
 
 import bluejam.math.ModInt
 import bluejam.testutils.Verifier
+import org.junit.jupiter.api.Assertions.assertEquals
 import java.util.*
 
 class AojNtl1B: Verifier<Long>("aoj/NTL_1_B") {
@@ -13,5 +14,9 @@ class AojNtl1B: Verifier<Long>("aoj/NTL_1_B") {
         val m = sc.nextLong()
         val n = sc.nextLong()
         return ModInt(m, MOD).pow(n).value
+    }
+
+    override fun assertResult(expected: Long, actual: Long) {
+        assertEquals(expected, actual)
     }
 }

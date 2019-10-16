@@ -2,6 +2,7 @@ package bluejam.math.sieve
 
 import bluejam.math.SieveOfEratosthenes
 import bluejam.testutils.Verifier
+import org.junit.jupiter.api.Assertions.assertEquals
 import java.util.*
 
 class Aoj1232: Verifier<List<Pair<Long, Long>>>("aoj/1232") {
@@ -48,5 +49,9 @@ class Aoj1232: Verifier<List<Pair<Long, Long>>>("aoj/1232") {
 
             answers.add(res)
         }
+    }
+
+    override fun assertResult(expected: List<Pair<Long, Long>>, actual: List<Pair<Long, Long>>) {
+        assertEquals(expected, actual)
     }
 }

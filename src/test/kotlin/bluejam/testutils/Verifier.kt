@@ -1,6 +1,5 @@
 package bluejam.testutils
 
-import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertTimeout
 import org.junit.jupiter.api.DynamicTest
 import org.junit.jupiter.api.TestFactory
@@ -14,6 +13,7 @@ abstract class Verifier<T>(
 ) {
     abstract fun solve(sc: Scanner): T
     abstract fun readAnswerFile(sc: Scanner): T
+    abstract fun assertResult(expected: T, actual: T)
 
     @TestFactory
     fun run(): List<DynamicTest> {
@@ -25,7 +25,7 @@ abstract class Verifier<T>(
                     val (inSc, diffSc) = createScannerForCase(it)
                     val res = assertTimeout<T>(Duration.ofSeconds(timeLimit)) { solve(inSc) }
 
-                    assertEquals(readAnswerFile(diffSc), res)
+                    assertResult(readAnswerFile(diffSc), res)
                 }
             }
     }

@@ -2,6 +2,7 @@ package bluejam.math.gcd
 
 import bluejam.math.lcm
 import bluejam.testutils.Verifier
+import org.junit.jupiter.api.Assertions.assertEquals
 import java.util.*
 
 class AojNtl1C: Verifier<Long>("aoj/NTL_1_C") {
@@ -12,5 +13,9 @@ class AojNtl1C: Verifier<Long>("aoj/NTL_1_C") {
         val a = Array(N) { sc.nextLong() }
 
         return a.fold(1L, ::lcm)
+    }
+
+    override fun assertResult(expected: Long, actual: Long) {
+        assertEquals(expected, actual)
     }
 }
