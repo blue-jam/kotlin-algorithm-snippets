@@ -2,9 +2,15 @@ package bluejam.math
 
 import java.util.*
 
+/**
+ * Generate a list of primes less than or equal to `n`.
+ */
 class SieveOfEratosthenes(n: Long) {
     private val isPrime = Array(n.toInt() + 1) { true }
 
+    /**
+     * A list of primes less than or equal to `n`.
+     */
     val primes: List<Long>
 
     init {
@@ -26,6 +32,9 @@ class SieveOfEratosthenes(n: Long) {
         primes = Collections.unmodifiableList(primeList)
     }
 
+    /**
+     * @return `true` if `i` is prime.
+     */
     fun get(i: Long): Boolean {
         return isPrime[i.toInt()]
     }
