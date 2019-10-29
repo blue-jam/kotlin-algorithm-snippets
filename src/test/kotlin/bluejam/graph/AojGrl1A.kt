@@ -4,7 +4,7 @@ import bluejam.testutils.SimpleVerifier
 import java.lang.StringBuilder
 import java.util.*
 
-class AojGrl1A : SimpleVerifier("aoj/GRL_1_A") {
+class AojGrl1A : SimpleVerifier("aoj/GRL_1_A", timeLimit = 3) {
     override fun solve(sc: Scanner): String {
         val INF = 1e14.toLong()
 
