@@ -1,5 +1,8 @@
-package bluejam.graph
+package bluejam.graph.sssp
 
+import bluejam.graph.Edge
+import bluejam.graph.Graph
+import bluejam.graph.dijkstra
 import bluejam.testutils.SimpleVerifier
 import java.lang.StringBuilder
 import java.util.*
