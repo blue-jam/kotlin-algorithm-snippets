@@ -27,6 +27,10 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 
+test {
+    jvmArgs = ['-Xss16m']
+}
+
 dokka {
     outputFormat = 'javadoc'
 }
