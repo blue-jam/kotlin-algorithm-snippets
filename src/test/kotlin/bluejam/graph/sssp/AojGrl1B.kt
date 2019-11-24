@@ -23,14 +23,14 @@ class AojGrl1B : SimpleVerifier("aoj/GRL_1_B", timeLimit = 3) {
             g.edges[s].add(Edge(s, t, d))
         }
 
-        val (dist, prev, affectedByNegativeLoop) = bellmanFord(g, r)
+        val (dist, prev, hasNegativeLoop) = bellmanFord(g, r)
         val sb = StringBuilder()
 
-        for (i in dist.indices) {
-            if (affectedByNegativeLoop[i]) {
-                return "NEGATIVE CYCLE\n"
-            }
+        if (hasNegativeLoop) {
+            return "NEGATIVE CYCLE\n"
+        }
 
+        for (i in dist.indices) {
             sb.appendln(if (dist[i] == INF) "INF" else dist[i])
         }
 
