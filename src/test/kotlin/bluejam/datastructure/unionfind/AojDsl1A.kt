@@ -11,14 +11,14 @@ class AojDsl1A: SimpleVerifier("aoj/DSL_1_A") {
         val n = sc.nextInt()
         val q = sc.nextInt()
 
-        val uf = UnionFind(n.toLong())
+        val uf = UnionFind(n)
 
         val output = StringBuilder()
 
         for (i in 1 .. q) {
             val c = sc.nextLong()
-            val x = sc.nextLong()
-            val y = sc.nextLong()
+            val x = sc.nextInt()
+            val y = sc.nextInt()
 
             if (c == 0L) {
                 uf.unite(x, y)
