@@ -6,8 +6,9 @@ import java.util.*
 
 abstract class SimpleVerifier(
     directoryPath: String,
-    timeLimit: Long = 1
-) : Verifier<String>(directoryPath, timeLimit) {
+    timeLimit: Long = 1,
+    problemUrl: String? = null
+) : Verifier<String>(directoryPath, timeLimit, problemUrl) {
     override fun readAnswerFile(sc: Scanner): String {
         val output = StringBuilder()
 

@@ -1,5 +1,6 @@
 package bluejam.testutils
 
+import org.apache.commons.codec.digest.DigestUtils
 import org.junit.jupiter.api.Assertions.assertTimeout
 import org.junit.jupiter.api.DynamicTest
 import org.junit.jupiter.api.TestFactory
@@ -9,7 +10,8 @@ import java.util.*
 
 abstract class Verifier<T>(
     private val directoryPath: String,
-    private val timeLimit: Long = 1
+    private val timeLimit: Long = 1,
+    private val problemUrl: String? = null
 ) {
     abstract fun solve(sc: Scanner): T
     abstract fun readAnswerFile(sc: Scanner): T
@@ -17,7 +19,11 @@ abstract class Verifier<T>(
 
     @TestFactory
     fun run(): List<DynamicTest> {
-        val directory = File("build/test-cases/${directoryPath}")
+        val directory = if (problemUrl == null) {
+            File("build/test-cases/${directoryPath}")
+        } else {
+            File("build/test-cases/${DigestUtils.md5Hex(problemUrl)}")
+        }
 
         return directory.listFiles { file -> file.extension == "in" }!!
             .map {
