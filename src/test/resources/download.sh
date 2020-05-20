@@ -3,7 +3,7 @@
 TEST_CASE_DIR=build/test-cases
 
 for file in $(find src/test/kotlin -name *.kt) ; do
-  url="$(sed -e 's/^.*"\(https\?:\/\/.*\)",\?/\1/ ; t ; d' "$file")"
+  url="$(sed -e 's/^.*"\(https\?:\/\/[^,)]*\)".*/\1/ ; t ; d' "$file")"
   if [[ -z ${url} ]] ; then
     continue
   fi
