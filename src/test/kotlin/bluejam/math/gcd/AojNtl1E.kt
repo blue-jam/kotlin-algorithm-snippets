@@ -5,7 +5,9 @@ import bluejam.testutils.Verifier
 import org.junit.jupiter.api.Assertions.assertEquals
 import java.util.*
 
-class AojNtl1E: Verifier<Pair<Long, Long>>("aoj/NTL_1_E") {
+class AojNtl1E: Verifier<Pair<Long, Long>>(
+    problemUrl = "https://onlinejudge.u-aizu.ac.jp/courses/library/6/NTL/1/NTL_1_E"
+) {
     override fun assertResult(expected: Pair<Long, Long>, actual: Pair<Long, Long>) {
         assertEquals(expected, actual)
     }

@@ -7,7 +7,6 @@ import java.lang.StringBuilder
 import java.util.*
 
 class AojDsl1A: SimpleVerifier(
-    "aoj/DSL_1_A",
     problemUrl = "https://onlinejudge.u-aizu.ac.jp/courses/library/3/DSL/1/DSL_1_A"
 ) {
     override fun solve(sc: Scanner): String {

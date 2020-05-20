@@ -9,9 +9,8 @@ import java.time.Duration
 import java.util.*
 
 abstract class Verifier<T>(
-    private val directoryPath: String,
-    private val timeLimit: Long = 1,
-    private val problemUrl: String? = null
+    private val problemUrl: String,
+    private val timeLimit: Long = 1
 ) {
     abstract fun solve(sc: Scanner): T
     abstract fun readAnswerFile(sc: Scanner): T
@@ -19,11 +18,7 @@ abstract class Verifier<T>(
 
     @TestFactory
     fun run(): List<DynamicTest> {
-        val directory = if (problemUrl == null) {
-            File("build/test-cases/${directoryPath}")
-        } else {
-            File("build/test-cases/${DigestUtils.md5Hex(problemUrl)}")
-        }
+        val directory = File("build/test-cases/${DigestUtils.md5Hex(problemUrl)}")
 
         return directory.listFiles { file -> file.extension == "in" }!!
             .map {

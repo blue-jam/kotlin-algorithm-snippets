@@ -5,10 +5,9 @@ import java.lang.StringBuilder
 import java.util.*
 
 abstract class SimpleVerifier(
-    directoryPath: String,
-    timeLimit: Long = 1,
-    problemUrl: String? = null
-) : Verifier<String>(directoryPath, timeLimit, problemUrl) {
+    problemUrl: String,
+    timeLimit: Long = 1
+) : Verifier<String>(problemUrl, timeLimit) {
     override fun readAnswerFile(sc: Scanner): String {
         val output = StringBuilder()
 

@@ -5,7 +5,9 @@ import bluejam.testutils.Verifier
 import org.junit.jupiter.api.Assertions.assertEquals
 import java.util.*
 
-class AojNtl1C: Verifier<Long>("aoj/NTL_1_C") {
+class AojNtl1C: Verifier<Long>(
+    problemUrl = "https://onlinejudge.u-aizu.ac.jp/courses/library/6/NTL/1/NTL_1_C"
+) {
     override fun readAnswerFile(sc: Scanner): Long = sc.nextLong()
 
     override fun solve(sc: Scanner): Long {

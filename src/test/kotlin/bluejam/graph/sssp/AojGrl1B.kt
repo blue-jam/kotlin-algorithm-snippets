@@ -6,7 +6,10 @@ import bluejam.graph.bellmanFord
 import bluejam.testutils.SimpleVerifier
 import java.util.*
 
-class AojGrl1B : SimpleVerifier("aoj/GRL_1_B", timeLimit = 3) {
+class AojGrl1B : SimpleVerifier(
+    problemUrl = "https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/1/GRL_1_B",
+    timeLimit = 3
+) {
     override fun solve(sc: Scanner): String {
         val INF = 1e14.toLong()
 

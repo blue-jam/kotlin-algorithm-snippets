@@ -7,7 +7,9 @@ import bluejam.testutils.SimpleVerifier
 import java.lang.StringBuilder
 import java.util.*
 
-class AojGrl3B: SimpleVerifier("aoj/GRL_3_B") {
+class AojGrl3B: SimpleVerifier(
+    problemUrl = "https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/1/GRL_3_B"
+) {
     override fun solve(sc: Scanner): String {
         val V = sc.nextInt()
         val E = sc.nextInt()

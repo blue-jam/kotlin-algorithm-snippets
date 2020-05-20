@@ -5,7 +5,9 @@ import bluejam.testutils.Verifier
 import org.junit.jupiter.api.Assertions.assertEquals
 import java.util.*
 
-class Aoj1232: Verifier<List<Pair<Long, Long>>>("aoj/1232") {
+class Aoj1232: Verifier<List<Pair<Long, Long>>>(
+    problemUrl = "http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=1232"
+) {
     override fun readAnswerFile(sc: Scanner): List<Pair<Long, Long>> {
         val list = ArrayList<Pair<Long, Long>>()
 

@@ -9,7 +9,9 @@ import java.util.*
 
 // This problem should be verified by a special judge.
 // But, since it's working, omit implementing it.
-class AojGrl4B: SimpleVerifier("aoj/GRL_4_B") {
+class AojGrl4B: SimpleVerifier(
+    problemUrl = "https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/1/GRL_4_B"
+) {
     override fun solve(sc: Scanner): String {
         val V = sc.nextInt()
         val E = sc.nextInt()
