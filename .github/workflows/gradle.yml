@@ -26,7 +26,11 @@ jobs:
     - name: Download test cases
       run: ./gradlew downloadTestCase
     - name: Build and Test
-      run: ./gradlew build dokka
+      run: ./gradlew build jacocoTestReport dokka
+    - name: Upload coverage report
+      uses: codecov/codecov-action@v1
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
     - name: Deploy document
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
