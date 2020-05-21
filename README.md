@@ -1,6 +1,6 @@
 # kotlin-algorithm-snippets
 
-![Kotlin CI](https://github.com/blue-jam/kotlin-algorithm-snippets/workflows/Kotlin%20CI/badge.svg)
+![build](https://github.com/blue-jam/kotlin-algorithm-snippets/workflows/build/badge.svg)
 [![codecov](https://codecov.io/gh/blue-jam/kotlin-algorithm-snippets/branch/master/graph/badge.svg)](https://codecov.io/gh/blue-jam/kotlin-algorithm-snippets)
 
 Implementations of Algorithms in Kotlin for Competitive Programming
