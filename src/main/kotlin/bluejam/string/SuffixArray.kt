@@ -1,9 +1,33 @@
 package bluejam.string
 
+// TODO: Test rank & LCP with bigger data sets
+/**
+ * A suffix array (SA) constructed with O(n) times where `n` is the length of a string.
+ *
+ * This implementation of SA contains an empty suffix. That is the first element of SA is always `n`.
+ * More precisely, this class adds `\0` (null character) to the end of a string same as lots of articles add `$` to a string.
+ * So, if you pass a string contains `\0`, this implementation might fail.
+ */
 class SuffixArray(val s: String) {
+    /**
+     * The length of the original string.
+     */
     val length = s.length
+
+    /**
+     * The suffix array. The `i`-th element indicates the `i`-th smallest suffix starts from `sa[i]`.
+     */
     val sa: IntArray
+
+    /**
+     * The inverse array of SA. Indicates a suffix starts from `i` is the `rank[i]`-th smallest suffix.
+     */
     val rank: IntArray
+
+    /**
+     * The longest common prefix array.
+     * The length of a common prefix of `i`-th smallest suffix and `i + 1`-th smallest suffix is `lcp[i]`.
+     */
     val lcp: IntArray
 
     companion object {
@@ -107,14 +131,12 @@ class SuffixArray(val s: String) {
     init {
         val iS = (s.map { it.toInt() } + 0).toIntArray()
         sa = construct(iS)
-        rank = IntArray(length + 1)
 
+        rank = IntArray(length + 1)
         sa.forEachIndexed { i, v ->
             rank[v] = i
         }
 
-        // LCP
-        // TODO: Test
         lcp = IntArray(length + 1)
         var h = 0
         lcp[0] = 0
