@@ -4,7 +4,7 @@ import bluejam.string.SuffixArray
 import bluejam.testutils.SimpleVerifier
 import java.util.*
 
-class LcSuffixArray: SimpleVerifier("https://judge.yosupo.jp/problem/suffixarray", 6) {
+class LcSuffixArray: SimpleVerifier("https://judge.yosupo.jp/problem/suffixarray") {
     override fun solve(sc: Scanner): String {
         val s = sc.next()
         val sa = SuffixArray(s)
