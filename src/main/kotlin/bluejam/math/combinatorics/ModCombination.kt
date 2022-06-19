@@ -2,9 +2,9 @@ package bluejam.math.combinatorics
 
 import bluejam.math.ModInt
 
-class ModCombination(val n: Long, val mod: Long) {
-    private val fact = Array(n.toInt() + 1) { ModInt(1, mod) }
-    private val invfact = Array(n.toInt() + 1) { ModInt(1, mod) }
+class ModCombination(val n: Long, private val factory: ModInt.Factory) {
+    private val fact = Array(n.toInt() + 1) { factory.valueOf(1) }
+    private val invfact = Array(n.toInt() + 1) { factory.valueOf(1) }
 
     init {
         for (i in 2..n.toInt()) {
@@ -13,9 +13,12 @@ class ModCombination(val n: Long, val mod: Long) {
         }
     }
 
+    constructor(n: Long, mod: Long) : this(n, ModInt.Factory(mod)) {
+    }
+
     operator fun get(n: Long, m: Long): ModInt {
         if (m > n) {
-            return ModInt(0, mod)
+            return factory.valueOf(0)
         }
 
         return fact[n.toInt()] * invfact[m.toInt()] * invfact[(n - m).toInt()]

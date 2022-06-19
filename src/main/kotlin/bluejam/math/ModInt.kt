@@ -6,19 +6,35 @@ package bluejam.math
  * For any operations with two arguments, they should have a same modulus.
  * If they don't, throws [IllegalArgumentException].
  *
- * @param value a dividend.
- * @param mod a modulus. Should be a positive integer. If it's not prime, division won't work.
- * @constructor Create an object with the `value` under the modulus `mod`.
- * If the `mod` isn't positive, throws an [IllegalArgumentException].
+ * First create a factory by `val factory = ModInt.Factory(mod)`.
+ * Then, `factory.valueOf(value)` to create ModInt instance.
  */
-class ModInt (value: Long, val mod: Long) {
+class ModInt private constructor(value: Long, val mod: Long) {
+    val value: Long
+
     init {
         if (mod <= 0) {
             throw IllegalArgumentException("ModInt cannot be created for non-positive modulus: $mod")
         }
+        this.value = (value % mod + mod) % mod
     }
 
-    val value = (value % mod + mod) % mod
+    /**
+     * Factory to create `ModInt` instance.
+     *
+     * @param mod a modulus. Should be a positive integer. If it's not prime, division won't work.
+     * @constructor Create a factory with the modulus `mod`.
+     * If the `mod` isn't positive, throws an [IllegalArgumentException].
+     */
+    class Factory(val mod: Long) {
+        val zero = valueOf(0L)
+        val one = valueOf(1L)
+        val two = valueOf(2L)
+
+        fun valueOf(value: Long): ModInt {
+            return ModInt(value, mod)
+        }
+    }
 
     private fun assertSameMod(other: ModInt) {
         if (mod != other.mod) {

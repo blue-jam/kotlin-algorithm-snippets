@@ -15,7 +15,8 @@ class AojNtl1B: Verifier<Long>(
     override fun solve(sc: Scanner): Long {
         val m = sc.nextLong()
         val n = sc.nextLong()
-        return ModInt(m, MOD).pow(n).value
+        val factory = ModInt.Factory(MOD)
+        return factory.valueOf(m).pow(n).value
     }
 
     override fun assertResult(expected: Long, actual: Long) {
