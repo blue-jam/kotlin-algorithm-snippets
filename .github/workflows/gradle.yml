@@ -26,7 +26,7 @@ jobs:
     - name: Download test cases
       run: ./gradlew downloadTestCase
     - name: Build and Test
-      run: ./gradlew build jacocoTestReport dokka
+      run: ./gradlew build jacocoTestReport dokkaHtml
     - name: Upload coverage report
       uses: codecov/codecov-action@v1
       with:
@@ -36,4 +36,4 @@ jobs:
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./build/dokka
+        PUBLISH_DIR: ./build/dokka/html
