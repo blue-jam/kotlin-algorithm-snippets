@@ -1,0 +1,90 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure////PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/index.html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure/SegmentTree///PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/-segment-tree/index.html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure/SegmentTree/SegmentTree/#kotlin.Int#TypeParam(bounds=[kotlin.Any?])#kotlin.Function2[TypeParam(bounds=[kotlin.Any?]),TypeParam(bounds=[kotlin.Any?]),TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/-segment-tree/-segment-tree.html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure/SegmentTree/e/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/-segment-tree/e.html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure/SegmentTree/initialize/#kotlin.collections.List[TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/-segment-tree/initialize.html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure/SegmentTree/op/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/-segment-tree/op.html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure/SegmentTree/query/#kotlin.Int#kotlin.Int/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/-segment-tree/query.html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure/SegmentTree/size/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/-segment-tree/size.html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure/SegmentTree/update/#kotlin.Int#TypeParam(bounds=[kotlin.Any?])/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/-segment-tree/update.html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure/UnionFind///PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/-union-find/index.html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure/UnionFind/UnionFind/#kotlin.Int/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/-union-find/-union-find.html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure/UnionFind/find/#kotlin.Int/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/-union-find/find.html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure/UnionFind/getCardinalityOf/#kotlin.Int/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/-union-find/get-cardinality-of.html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure/UnionFind/same/#kotlin.Int#kotlin.Int/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/-union-find/same.html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure/UnionFind/size/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/-union-find/size.html
+$dokka.location:blue.bluejam.algorithms.kotlin.datastructure/UnionFind/unite/#kotlin.Int#kotlin.Int/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.datastructure/-union-find/unite.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph////PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/index.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph//bellmanFord/#blue.bluejam.algorithms.kotlin.graph.Graph[TypeParam(bounds=[kotlin.Comparable[^]])]#kotlin.Int#kotlin.Int/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/bellman-ford.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph//bellmanFord/#blue.bluejam.algorithms.kotlin.graph.Graph[TypeParam(bounds=[kotlin.Comparable[^]])]#kotlin.Int/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/bellman-ford.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph//dijkstra/#blue.bluejam.algorithms.kotlin.graph.Graph[TypeParam(bounds=[kotlin.Comparable[^]])]#kotlin.Int/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/dijkstra.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph//findBridges/#blue.bluejam.algorithms.kotlin.graph.Graph[TypeParam(bounds=[kotlin.Comparable[^]])]/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/find-bridges.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph//listRequiredVertices/#blue.bluejam.algorithms.kotlin.graph.Graph[TypeParam(bounds=[kotlin.Comparable[^]])]#kotlin.Int#kotlin.Int/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/list-required-vertices.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph//topologicalSort/#blue.bluejam.algorithms.kotlin.graph.Graph[TypeParam(bounds=[kotlin.Comparable[^]])]/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/topological-sort.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph/Edge///PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/-edge/index.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph/Edge/Edge/#kotlin.Int#kotlin.Int#TypeParam(bounds=[kotlin.Comparable[^]])/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/-edge/-edge.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph/Edge/Edge/#kotlin.Long#kotlin.Long#TypeParam(bounds=[kotlin.Comparable[^]])/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/-edge/-edge.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph/Edge/compareTo/#blue.bluejam.algorithms.kotlin.graph.Edge[TypeParam(bounds=[kotlin.Comparable[^]])]/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/-edge/compare-to.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph/Edge/from/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/-edge/from.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph/Edge/to/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/-edge/to.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph/Edge/weight/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/-edge/weight.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph/Graph///PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/-graph/index.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph/Graph/Graph/#kotlin.Int#TypeParam(bounds=[kotlin.Comparable[^]])#TypeParam(bounds=[kotlin.Comparable[^]])#kotlin.Function2[TypeParam(bounds=[kotlin.Comparable[^]]),TypeParam(bounds=[kotlin.Comparable[^]]),TypeParam(bounds=[kotlin.Comparable[^]])]/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/-graph/-graph.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph/Graph/edges/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/-graph/edges.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph/Graph/inf/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/-graph/inf.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph/Graph/n/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/-graph/n.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph/Graph/plus/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/-graph/plus.html
+$dokka.location:blue.bluejam.algorithms.kotlin.graph/Graph/zero/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.graph/-graph/zero.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math.combinatorics////PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math.combinatorics/index.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math.combinatorics/ModCombination///PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math.combinatorics/-mod-combination/index.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math.combinatorics/ModCombination/ModCombination/#kotlin.Long#blue.bluejam.algorithms.kotlin.math.ModInt.Factory/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math.combinatorics/-mod-combination/-mod-combination.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math.combinatorics/ModCombination/ModCombination/#kotlin.Long#kotlin.Long/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math.combinatorics/-mod-combination/-mod-combination.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math.combinatorics/ModCombination/get/#kotlin.Long#kotlin.Long/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math.combinatorics/-mod-combination/get.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math.combinatorics/ModCombination/n/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math.combinatorics/-mod-combination/n.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math////PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/index.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math//extendedEuclideanAlgorithm/#kotlin.Long#kotlin.Long/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/extended-euclidean-algorithm.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math//factorize/#kotlin.Long/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/factorize.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math//gcd/#kotlin.Long#kotlin.Long/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/gcd.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math//lcm/#kotlin.Long#kotlin.Long/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/lcm.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt.Factory///PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/-factory/index.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt.Factory/Factory/#kotlin.Long/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/-factory/-factory.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt.Factory/mod/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/-factory/mod.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt.Factory/one/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/-factory/one.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt.Factory/two/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/-factory/two.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt.Factory/valueOf/#kotlin.Long/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/-factory/value-of.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt.Factory/zero/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/-factory/zero.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt///PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/index.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt/div/#blue.bluejam.algorithms.kotlin.math.ModInt/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/div.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt/div/#kotlin.Long/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/div.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt/inv/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/inv.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt/minus/#blue.bluejam.algorithms.kotlin.math.ModInt/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/minus.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt/minus/#kotlin.Long/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/minus.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt/mod/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/mod.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt/plus/#blue.bluejam.algorithms.kotlin.math.ModInt/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/plus.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt/plus/#kotlin.Long/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/plus.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt/pow/#kotlin.Long/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/pow.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt/times/#blue.bluejam.algorithms.kotlin.math.ModInt/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/times.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt/times/#kotlin.Long/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/times.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt/unaryMinus/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/unary-minus.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/ModInt/value/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-mod-int/value.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/SieveOfEratosthenes///PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-sieve-of-eratosthenes/index.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/SieveOfEratosthenes/SieveOfEratosthenes/#kotlin.Long/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-sieve-of-eratosthenes/-sieve-of-eratosthenes.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/SieveOfEratosthenes/get/#kotlin.Long/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-sieve-of-eratosthenes/get.html
+$dokka.location:blue.bluejam.algorithms.kotlin.math/SieveOfEratosthenes/primes/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.math/-sieve-of-eratosthenes/primes.html
+$dokka.location:blue.bluejam.algorithms.kotlin.string////PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.string/index.html
+$dokka.location:blue.bluejam.algorithms.kotlin.string/SuffixArray.Companion///PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.string/-suffix-array/-companion/index.html
+$dokka.location:blue.bluejam.algorithms.kotlin.string/SuffixArray///PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.string/-suffix-array/index.html
+$dokka.location:blue.bluejam.algorithms.kotlin.string/SuffixArray/SuffixArray/#kotlin.String/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.string/-suffix-array/-suffix-array.html
+$dokka.location:blue.bluejam.algorithms.kotlin.string/SuffixArray/lcp/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.string/-suffix-array/lcp.html
+$dokka.location:blue.bluejam.algorithms.kotlin.string/SuffixArray/length/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.string/-suffix-array/length.html
+$dokka.location:blue.bluejam.algorithms.kotlin.string/SuffixArray/rank/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.string/-suffix-array/rank.html
+$dokka.location:blue.bluejam.algorithms.kotlin.string/SuffixArray/s/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.string/-suffix-array/s.html
+$dokka.location:blue.bluejam.algorithms.kotlin.string/SuffixArray/sa/#/PointingToDeclaration/kotlin-algorithm-snippets/blue.bluejam.algorithms.kotlin.string/-suffix-array/sa.html
+blue.bluejam.algorithms.kotlin.datastructure
+blue.bluejam.algorithms.kotlin.graph
+blue.bluejam.algorithms.kotlin.math
+blue.bluejam.algorithms.kotlin.math.combinatorics
+blue.bluejam.algorithms.kotlin.string
+
